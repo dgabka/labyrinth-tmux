@@ -57,7 +57,7 @@ main() {
         thm_amber="#da877f"
         thm_moss="#417346"
         thm_leaf="#7a967a"
-        thm_haze="#988482"
+        thm_haze="#9884b2"
         thm_hl_low="#161e14"
         thm_hl_med="#242b20"
         thm_hl_high="#292f24"

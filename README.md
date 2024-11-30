@@ -6,7 +6,6 @@ Labyrinth provides four distinct variants with varying levels of contrast and co
 
  - **Gloom**: The most contrasty variant, perfect for those who prefer sharp distinctions and vibrant colors.
  - **Dusk**: A balanced variant, offering a comfortable middle ground with moderate contrast and vibrancy.
- - **Shade**: A softer variant with reduced contrast, ideal for a more subdued and relaxed visual experience.
  - **Mist**: The least contrasty variant, featuring the most gentle and subtle tones for a calm and unobtrusive interface.
 
 Whether you're coding, designing, or simply exploring new aesthetics, Labyrinth adapts to your needs with its harmonious palette.
@@ -65,7 +64,7 @@ Add these entries either directly in your `.tmux.conf` or `extraConfig` section 
 Set your preferred variant:
 
 ```bash
-set -g @labyrinth_variant 'main' # Options are 'main', 'moon' or 'dawn'
+set -g @labyrinth_variant 'dusk' # Options are 'gloom', 'dusk' or 'mist'
 ```
 
 Activate the extra modules, they are enabled by writing 'on' after the option name

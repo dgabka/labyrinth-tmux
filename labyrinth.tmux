@@ -81,23 +81,6 @@ main() {
         thm_hl_med="#434a62"
         thm_hl_high="#596579"
 
-    elif [[ $theme == shade ]]; then
-        thm_base="#1c1f29"
-        thm_surface="#222732"
-        thm_overlay="#282d39"
-        thm_muted="#646a7c"
-        thm_subtle="#8a91a3"
-        thm_text="#c4c7d4"
-        thm_crimson="#b15366"
-        thm_sun="#c88b59"
-        thm_amber="#c88b7a"
-        thm_moss="#387464"
-        thm_leaf="#82a0a0"
-        thm_haze="#827398"
-        thm_hl_low="#2e3343"
-        thm_hl_med="#4a5167"
-        thm_hl_high="#5f6a7d"
-
     elif [[ $theme == mist ]]; then
         thm_base="#20232b"
         thm_surface="#262933"

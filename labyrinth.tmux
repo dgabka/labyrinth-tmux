@@ -92,9 +92,9 @@ main() {
         thm_moss="#415f43"
         thm_leaf="#768c76"
         thm_haze="#8c7d98"
-        thm_hl_low="#343a4c"
-        thm_hl_med="#565d75"
-        thm_hl_high="#717a8f"
+        thm_hl_low="#161e14"
+        thm_hl_med="#242b20"
+        thm_hl_high="#292f24"
     fi
 
     # Aggregating all commands into a single array

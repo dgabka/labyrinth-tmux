@@ -42,7 +42,7 @@ main() {
     local theme
     theme="$(get_tmux_option "@labyrinth_variant" "dusk")"
 
-    # INFO: Not removing the thm_hl_low and thm_hl_med colors for posible features
+    # INFO: Not removing the thm_highlight_low and thm_highlight_med colors for posible features
     # INFO: If some variables appear unused, they are being used either externally
     # or in the plugin's features
     if [[ $theme == gloom ]]; then
@@ -58,9 +58,9 @@ main() {
         thm_moss="#417346"
         thm_leaf="#7a967a"
         thm_haze="#9884b2"
-        thm_hl_low="#161e14"
-        thm_hl_med="#242b20"
-        thm_hl_high="#292f24"
+        thm_highlight_low="#161e14"
+        thm_highlight_med="#242b20"
+        thm_highlight_high="#292f24"
 
     elif [[ $theme == dusk ]]; then
         thm_base="#0f1211"
@@ -75,26 +75,26 @@ main() {
         thm_moss="#415f43"
         thm_leaf="#768c76"
         thm_haze="#8c7aa0"
-        thm_hl_low="#161e14"
-        thm_hl_med="#242b20"
-        thm_hl_high="#292f24"
+        thm_highlight_low="#161e14"
+        thm_highlight_med="#242b20"
+        thm_highlight_high="#292f24"
 
     elif [[ $theme == mist ]]; then
-        thm_base="#171918"
-        thm_surface="#1b1d1c"
-        thm_overlay="#1f2120"
-        thm_muted="#4c5759"
-        thm_subtle="#5f6c58"
-        thm_text="#bec3c1"
-        thm_crimson="#b4556e"
-        thm_sun="#be915e"
-        thm_amber="#be8c82"
-        thm_moss="#415f43"
-        thm_leaf="#768c76"
-        thm_haze="#8c7d98"
-        thm_hl_low="#161e14"
-        thm_hl_med="#242b20"
-        thm_hl_high="#292f24"
+        thm_base="#1A1C19"
+        thm_surface="#202420"
+        thm_overlay="#242824"
+        thm_muted="#555550"
+        thm_subtle="#646C5F"
+        thm_text="#A0AA96"
+        thm_crimson="#96465A"
+        thm_sun="#B48E46"
+        thm_amber="#A06546"
+        thm_moss="#3A563C"
+        thm_leaf="#6E826E"
+        thm_haze="#7C6C8B"
+        thm_highlight_low="#1C2319"
+        thm_highlight_med="#283225"
+        thm_highlight_high="#2D3C28"
     fi
 
     # Aggregating all commands into a single array
@@ -114,7 +114,7 @@ main() {
     set message-command-style "fg=$thm_base,bg=$thm_sun"
 
     # Pane styling
-    set pane-border-style "fg=$thm_hl_high"
+    set pane-border-style "fg=$thm_highlight_high"
     set pane-active-border-style "fg=$thm_sun"
     set display-panes-active-colour "${thm_text}"
     set display-panes-colour "${thm_sun}"

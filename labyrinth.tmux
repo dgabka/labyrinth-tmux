@@ -61,7 +61,7 @@ main() {
         # thm_highlight_low="#161e14"
         # thm_highlight_med="#242b20"
         # thm_highlight_high="#292f24"
-        source-file ./dist/labyrinth-gloom.tmux
+        source ./dist/labyrinth-gloom.tmux
 
     elif [[ $theme == dusk ]]; then
         # thm_base="#0f1211"
@@ -79,7 +79,7 @@ main() {
         # thm_highlight_low="#161e14"
         # thm_highlight_med="#242b20"
         # thm_highlight_high="#292f24"
-        source-file ./dist/labyrinth-dusk.tmux
+        source ./dist/labyrinth-dusk.tmux
 
     elif [[ $theme == mist ]]; then
         # thm_base="#1A1C19"
@@ -97,7 +97,7 @@ main() {
         # thm_highlight_low="#1C2319"
         # thm_highlight_med="#3C4632"
         # thm_highlight_high="#5F645A"
-        source-file ./dist/labyrinth-mist.tmux
+        source ./dist/labyrinth-mist.tmux
     fi
 
     # Aggregating all commands into a single array

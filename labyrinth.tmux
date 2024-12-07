@@ -93,8 +93,8 @@ main() {
         thm_leaf="#6E826E"
         thm_haze="#7C6C8B"
         thm_highlight_low="#1C2319"
-        thm_highlight_med="#283225"
-        thm_highlight_high="#2D3C28"
+        thm_highlight_med="#3C4632"
+        thm_highlight_high="#5F645A"
     fi
 
     # Aggregating all commands into a single array
